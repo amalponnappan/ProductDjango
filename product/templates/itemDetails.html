@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table border="1">
+            <tr>pytho
+                <td>Model</td>
+                <td>Price</td>
+            </tr>
+            {%for items in itemlist%}
+            <tr>
+                <td>{{items.model}}</td>
+                <td>{{items.price}}</td>
+            </tr>
+            {%endfor%}
+    </table>
+</body>
+</html>
